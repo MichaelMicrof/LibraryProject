@@ -1,0 +1,37 @@
+body{
+    background-color: lightgrey;
+    background-image: url(./images/biblioteka2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center, center;
+  }
+  
+h3{
+    text-align: center;
+    color: blue;
+    margin: auto;
+    font-size: 26px;  
+  }
+
+body p{
+    color: #FFFF99;
+    font-weight: 800;   
+  }
+  
+.button{
+    position: absolute;
+    left: 44%;
+    top:  155px;
+    margin: auto;
+  }
+  
+.dataUser{
+    position: absolute;
+    left: 10vw;
+    top: 20vh;
+  }  
+  
+body #rt{
+    color: blue;  
+  }
+

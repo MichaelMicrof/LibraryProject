@@ -1,0 +1,50 @@
+body{
+    background-color: lightgrey;
+    background-image: url(./images/biblioteka2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center, center;
+  }
+  
+h3{
+    text-align: center;
+    color: blue;
+    margin: auto;
+    font-size: 26px;  
+  }
+  
+.button{
+    position: absolute;
+    left: 44%;
+    top:  155px;
+    margin: auto;
+  }
+  
+.dataUser{
+    position: absolute;
+    width: 30vw;
+    left: 35vw;
+    top: 32vh;
+    padding-left: 2vw;
+    color: blue;
+    font-weight: 800; 
+    font-size: 24px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 
+        0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de,
+        0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  } 
+
+.dataUser1{
+    position: absolute;
+    width: 50vw;
+    left: 25vw;
+    top: 70vh;
+    text-align: center;
+    color: blue;
+    font-weight: 800; 
+    font-size: 24px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 
+        0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de,
+        0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }  
+

@@ -1,0 +1,233 @@
+ body{
+  /*background-color:#D6D6D6;*/
+   background-image: url(./images/biblioteka.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center, center;
+  }
+ 
+    .h1div{
+	text-align: center;
+	width: 60%;
+	background-color: rgba(0, 0, 0, .4);
+	border: 2px solid #2d393b;
+	/*opacity: 0.6;*/
+	box-shadow: 3px 3px 3px transparent;
+	color: white;
+	margin: auto;
+  }
+  
+    .h1div:hover{
+	background-color:#2d393b;
+	opacity: 0.8;
+	color: white;
+	width: 60%;
+	border: 2px solid #ffcc70;
+	box-shadow: 5px 5px 5px #ffcc70;
+  }
+  
+    .h2div{
+	text-align: center;
+	width: 60%;
+	background-color: rgba(0, 0, 0, .4);
+	/*opacity: 0.6;*/
+	border: 2px solid transparent;
+	color: white;
+	margin: auto;
+  }
+  
+    .h2div:hover{
+	background-color:#2d393b;
+	opacity: 0.8;
+	color: white;
+	border: 2px solid transparent;
+	box-shadow: 5px 5px 5px #ffcc70;
+  }
+  
+    .greenbold{color:green; font-weight:bold;}
+  /*.td1{border:4px solid blue;}*/ /*синяя рамка*/
+  /*.td2{border:3px solid black; background-color:yellow;}*/ /*желтый фон блока*/
+  /*.red{color:red;}
+  .blue{color:blue;}*/
+    option:nth-child(2n){color:red; font-weight:normal;} /*нечетный элемент в списке*/
+    option:nth-child(2n+1){color:blue; font-weight:normal;} /*четный элемент в списке*/
+    option:nth-last-child(2){font-weight:bold;} /*предпоследний элемент жирный*/
+    select{
+	color:green; 
+	font-weight:bold;
+	background-color: white;
+	opacity: 0.6;
+	} /*выдача зеленым жирным при выборе параметра*/
+	
+    select:hover{
+	opacity: 1.0;
+  }
+	
+    table.layer{
+    position: absolute;
+    bottom: 1px;
+    /*float: right;*/
+	right: 10px;
+    line-height: 1px;
+  }
+	
+    textarea{
+	float: right;
+	background-color: #F4F4F4;
+	font-weight:bold;
+	opacity:0.6;
+	/*border: 1px solid black;*/
+	}
+	
+    textarea:hover{
+	color:green; 
+	font-weight:bold;
+	width:95%;
+	background-color:#F4F4F4;
+	opacity: 1.0;
+	}
+        
+    button {
+        height:30px;
+        border-color:#c2e254 #9bb838 #9bb838 #c2e254;
+        border-style:solid;
+        border-width:1px;
+        background:#c2e254;
+        cursor:pointer;
+    }
+
+    button:hover {
+        border-color:#FFCC66 #FFFF99 #FFFF99 #FFCC66;
+        border-style:solid;
+        border-width:1px;
+        background:#FFFF99;
+    }
+    
+    button:focus {
+        background:#ddd;
+        border-color:#ddd #333 #333 #ddd;
+        border-style:solid;
+        border-width:1px;
+    }
+        
+    .ttar{
+        float: right;
+        color: green;
+        position: absolute;
+        right: 5px;
+        height: 20px;
+	font-weight: bold;
+	background-color: #F4F4F4;
+	opacity:0.6;
+    }
+    
+    .tta{
+	height: 20px;
+	font-weight: bold;
+	}
+	
+    .td3{
+	float:right;
+	padding-right: 3px;
+	opacity: 0.4;
+	/*background-color:#F4F4F4;*/
+	}
+	
+    .td3:hover{
+	opacity: 1.0;
+	/*background-color:#F4F4F4;*/
+	}
+    
+    .td6{
+        float:right;
+	padding-right: 3px;
+	opacity: 1.0;
+        color: red;
+        font-weight: 800;
+        text-align: center;
+        font-family: Times New Romantic;
+        }    
+	
+    table.td5 td{
+	opacity: 0.8;
+	}
+	
+    table.td5 td:hover{
+	opacity: 1.0;
+	}
+	
+    table.td2 th{
+	background-color: rgba(0, 0, 0, .4);
+	opacity: 1.0;
+	color: white;
+	border: 2px solid black;
+	box-shadow: 5px 5px 5px transparent;
+	}
+	
+    table.td4 td{
+	background-color: rgba(0, 0, 0, .4);
+	opacity: 1.0;
+	color: white;
+	border: 2px solid black;
+	box-shadow: 5px 5px 5px transparent;
+	}
+	
+    table.td2 th:hover{
+	background-color: #2d393b;
+	opacity: 1.0;
+	color: white;
+	border: 2px solid #ffcc70;
+	box-shadow: 5px 5px 5px #ffcc70;
+	}
+	
+    table.td4 td:hover{
+	background-color: #2d393b;
+	opacity: 1.0;
+	border: 2px solid #ffcc70;
+	box-shadow: 5px 5px 5px #ffcc70;
+	}
+  
+    .anitab:hover{
+	animation: anim1 5s;
+	-webkit-animation: anim1 3s; /*префекс для Хрома, Оперы и Сафари*/
+	}
+	
+	@keyframes anim1{
+	  0% {transform: rotate(0deg); opacity: 1.0;}
+	 50% {transform: rotate(360deg); opacity: 0.3;}
+	100% {transform: rotate(0deg); opacity: 1.0;}
+	}
+ 
+	@-webkit-keyframes anim1{
+	  0% {transform: rotate(0deg); opacity: 1.0;}
+	 50% {transform: rotate(360deg); opacity: 0.3;}
+	100% {transform: rotate(0deg); opacity: 1.0;}
+	}
+	
+    #logo{
+	position: absolute;
+	left: 14%;
+	top:  15px;
+	}
+	
+    .logo2{
+	border-radius:50%;
+	}
+        
+    #idA{
+            
+        }
+    
+/*    #idA:hover{
+        background-color: white;
+        }    */
+	/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19.08.2016, 11:07:44
+    Author     : 1
+*/
+
